@@ -29,18 +29,36 @@
     }
 }
 
-@font-face {
-    font-family: buding;
-    src: url(./fonts/budingti.ttf);
+
+/* @font-face {
+    font-family: buding !important;
+    src: url("./fonts/budingti.ttf") !important;
 }
 
 @font-face {
-    font-family: maobi;
-    src: url(./fonts/maobizi.ttf);
+    font-family: maobi !important;
+    src: url("./fonts/maobizi.ttf") !important;
 }
 
 html {
+    font-family: maobi buding !important;
+} */
+
+@font-face {
+    font-family: buding;
+    src: url("./fonts/budingti.ttf");
+}
+
+@font-face {
     font-family: maobi;
+    src: url("./fonts/maobizi.ttf");
+}
+
+
+/* 设置页面全局的字体样式 */
+
+html {
+    font-family: buding, maobi;
 }
 
 .pho2>img {
