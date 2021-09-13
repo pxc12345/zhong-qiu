@@ -67,9 +67,24 @@ html {
 }
 
 .tu {
-    /* color: white; */
     /* background-color: #000; */
     width: 48rem;
     height: 24rem;
-    font-size: 50px;
+    border: 1px solid black;
+}
+
+.zi1 {
+    font-size: 2rem;
+    background-color: #000;
+    color: white;
+    width: 2rem;
+    height: auto;
+}
+
+.zi2 {
+    font-size: 1.5rem;
+    background-color: #000;
+    color: white;
+    width: 1.5rem;
+    height: auto;
 }
