@@ -1,0 +1,43 @@
+@charset "utf-8";
+@media (min-width: 320px) {
+    html {
+        font-size: 8px !important;
+    }
+}
+
+@media (min-width: 575px) {
+    html {
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 12px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px !important;
+    }
+}
+
+.pho2 {}
+
+.pho2>img {
+    width: 1140px;
+    height: 570px;
+}
+
+.tu {
+    background-color: #000;
+    width: 48rem;
+    height: 24rem;
+}
