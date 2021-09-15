@@ -162,6 +162,17 @@ html {
     bottom: 2rem;
 }
 
+.zi9 {
+    font-size: 2rem !important;
+    width: auto;
+    height: 2rem;
+    color: rgb(143, 27, 27);
+    position: fixed;
+    z-index: 0;
+    left: 19rem;
+    top: 0;
+}
+
 .hu1 {
     animation-name: backInLeft;
     animation-delay: 1s;
