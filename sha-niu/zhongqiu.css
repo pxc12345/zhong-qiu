@@ -168,14 +168,21 @@ html {
     height: 2rem;
     color: rgb(143, 27, 27);
     position: fixed;
-    z-index: 0;
+    z-index: 10;
     left: 19rem;
     top: 0;
 }
 
+.hu0 {
+    animation-name: backInLeft;
+    animation-delay: 0s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
 .hu1 {
     animation-name: backInLeft;
-    animation-delay: 1s;
+    animation-delay: 2s;
     animation-duration: 500ms;
     animation-timing-function: linear;
 }
