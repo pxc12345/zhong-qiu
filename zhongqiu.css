@@ -61,11 +61,10 @@ html {
     font-family: buding, maobi;
 }
 
-
-/* .pho2>img {
-    width: 1140px;
-    height: 570px;
-} */
+.pho2>img {
+    width: 71.25rem;
+    height: 35.625rem;
+}
 
 .tu {
     /* background-color: #000; */
