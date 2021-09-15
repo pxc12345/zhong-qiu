@@ -104,7 +104,62 @@ html {
     position: absolute;
     z-index: 0;
     right: 10%;
-    bottom: 17%;
+    bottom: 27%;
+}
+
+.zi4 {
+    font-size: 4rem !important;
+    width: 5rem;
+    height: auto;
+    color: rgb(143, 27, 27);
+    position: absolute;
+    z-index: 0;
+    left: 12rem;
+    bottom: 2rem;
+}
+
+.zi5 {
+    font-size: 4rem !important;
+    width: 5rem;
+    height: auto;
+    color: rgb(143, 27, 27);
+    position: absolute;
+    z-index: 0;
+    left: 18rem;
+    bottom: 2rem;
+}
+
+.zi6 {
+    font-size: 4rem !important;
+    width: 5rem;
+    height: auto;
+    color: rgb(143, 27, 27);
+    position: absolute;
+    z-index: 0;
+    left: 24rem;
+    bottom: 2rem;
+}
+
+.zi7 {
+    font-size: 4rem !important;
+    width: 5rem;
+    height: auto;
+    color: rgb(143, 27, 27);
+    position: absolute;
+    z-index: 0;
+    left: 30rem;
+    bottom: 2rem;
+}
+
+.zi8 {
+    font-size: 4rem !important;
+    width: 5rem;
+    height: auto;
+    color: rgb(143, 27, 27);
+    position: absolute;
+    z-index: 0;
+    left: 35rem;
+    bottom: 2rem;
 }
 
 .hu1 {
@@ -166,6 +221,41 @@ html {
 .hu9 {
     animation-name: backInLeft;
     animation-delay: 5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu10 {
+    animation-name: backInLeft;
+    animation-delay: 6s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu11 {
+    animation-name: backInLeft;
+    animation-delay: 6.5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu12 {
+    animation-name: backInLeft;
+    animation-delay: 7s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu13 {
+    animation-name: backInLeft;
+    animation-delay: 7.5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu14 {
+    animation-name: backInLeft;
+    animation-delay: 8s;
     animation-duration: 500ms;
     animation-timing-function: linear;
 }
