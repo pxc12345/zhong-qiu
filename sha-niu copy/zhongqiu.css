@@ -173,9 +173,16 @@ html {
     top: 0;
 }
 
+.hu0 {
+    animation-name: backInLeft;
+    animation-delay: 0s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
 .hu1 {
     animation-name: backInLeft;
-    animation-delay: 1s;
+    animation-delay: 2s;
     animation-duration: 500ms;
     animation-timing-function: linear;
 }
