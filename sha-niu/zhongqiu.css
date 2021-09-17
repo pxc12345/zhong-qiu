@@ -61,6 +61,14 @@ html {
     font-family: buding, maobi;
 }
 
+.pho1 {
+    margin-top: 10rem !important;
+}
+
+.mt {
+    margin-top: 5rem;
+}
+
 .pho2>img {
     width: 71.25rem;
     height: 35.625rem;
@@ -174,10 +182,10 @@ html {
     width: auto;
     height: 2rem;
     color: #090909;
-    position: fixed;
+    position: absolute;
     z-index: 10;
     left: 19rem;
-    top: 0;
+    top: -4rem;
 }
 
 .hu0 {
