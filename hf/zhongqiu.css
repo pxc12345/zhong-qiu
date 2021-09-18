@@ -87,9 +87,9 @@ html {
 }
 
 .zi1 {
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     /* background-color: #000; */
-    color: #161616;
+    color: black;
     width: 2.5rem;
     height: auto;
     margin-left: 4rem;
@@ -99,7 +99,7 @@ html {
 .zi2 {
     font-size: 1.5rem;
     /* background-color: #000; */
-    color: #161616;
+    color: black;
     width: 1.5rem;
     height: auto;
     margin-left: 3rem;
@@ -110,7 +110,7 @@ html {
     font-size: 1.5rem !important;
     width: 11rem;
     height: auto;
-    color: #161616;
+    color: black;
     position: absolute;
     z-index: 0;
     right: 6%;
@@ -126,7 +126,7 @@ html {
     font-size: 4rem !important;
     width: 5rem;
     height: auto;
-    color: #161616;
+    color: black;
     position: absolute;
     z-index: 0;
     left: 8rem;
@@ -137,7 +137,7 @@ html {
     font-size: 4rem !important;
     width: 5rem;
     height: auto;
-    color: #161616;
+    color: black;
     position: absolute;
     z-index: 0;
     left: 14rem;
@@ -148,7 +148,7 @@ html {
     font-size: 4rem !important;
     width: 5rem;
     height: auto;
-    color: #161616;
+    color: black;
     position: absolute;
     z-index: 0;
     left: 20rem;
@@ -159,7 +159,7 @@ html {
     font-size: 4rem !important;
     width: 5rem;
     height: auto;
-    color: #161616;
+    color: black;
     position: absolute;
     z-index: 0;
     left: 26rem;
@@ -170,7 +170,7 @@ html {
     font-size: 4rem !important;
     width: 5rem;
     height: auto;
-    color: #161616;
+    color: black;
     position: absolute;
     z-index: 0;
     left: 31rem;
@@ -256,7 +256,7 @@ html {
     animation-delay: 5s;
     animation-duration: 500ms;
     animation-timing-function: linear;
-    color: #161616;
+    color: black;
 }
 
 .hu10 {
