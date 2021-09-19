@@ -1,0 +1,401 @@
+@charset "utf-8";
+@media (min-width: 320px) {
+    html {
+        font-size: 8px !important;
+    }
+}
+
+@media (min-width: 575px) {
+    html {
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 12px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 14px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 16px !important;
+    }
+}
+
+
+/* @font-face {
+    font-family: buding !important;
+    src: url("./fonts/budingti.ttf") !important;
+}
+
+@font-face {
+    font-family: maobi !important;
+    src: url("./fonts/maobizi.ttf") !important;
+}
+
+html {
+    font-family: maobi buding !important;
+} */
+
+@font-face {
+    font-family: buding;
+    src: url("./fonts/budingti.ttf");
+}
+
+@font-face {
+    font-family: maobi;
+    src: url("./fonts/maobizi.ttf");
+}
+
+
+/* 设置页面全局的字体样式 */
+
+html {
+    font-family: buding, maobi;
+}
+
+.pho1 {
+    margin-top: 10rem !important;
+}
+
+.mt {
+    margin-top: 5rem;
+}
+
+.pho2>img {
+    width: 71.25rem;
+    height: 35.625rem;
+}
+
+.tu {
+    /* background-color: #000; */
+    max-width: 48rem;
+    height: 30rem;
+    /* border: 1px solid black; */
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: url(./imgs/hf-02.jpg);
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+
+.zi1 {
+    font-size: 1.8rem;
+    /* background-color: #000; */
+    color: black;
+    width: 2.5rem;
+    height: auto;
+    margin-left: 4rem;
+    margin-top: 4rem !important;
+}
+
+.zi2 {
+    font-size: 1.3rem;
+    /* background-color: #000; */
+    color: black;
+    width: 1.5rem;
+    height: auto;
+    margin-left: 2.7rem;
+    margin-top: 5.5rem !important;
+}
+
+.zi3 {
+    font-size: 1.5rem !important;
+    width: 12rem;
+    height: auto;
+    color: black;
+    position: absolute;
+    z-index: 0;
+    right: 6%;
+    bottom: 15%;
+}
+
+.zi3>img {
+    width: 1.3rem;
+    height: 1.3rem;
+}
+
+.zi4 {
+    font-size: 4rem !important;
+    width: 5rem;
+    height: auto;
+    color: black;
+    position: absolute;
+    z-index: 0;
+    left: 8rem;
+    bottom: 2rem;
+}
+
+.zi5 {
+    font-size: 4rem !important;
+    width: 5rem;
+    height: auto;
+    color: black;
+    position: absolute;
+    z-index: 0;
+    left: 14rem;
+    bottom: 2rem;
+}
+
+.zi6 {
+    font-size: 4rem !important;
+    width: 5rem;
+    height: auto;
+    color: black;
+    position: absolute;
+    z-index: 0;
+    left: 20rem;
+    bottom: 2rem;
+}
+
+.zi7 {
+    font-size: 4rem !important;
+    width: 5rem;
+    height: auto;
+    color: black;
+    position: absolute;
+    z-index: 0;
+    left: 26rem;
+    bottom: 2rem;
+}
+
+.zi8 {
+    font-size: 4rem !important;
+    width: 5rem;
+    height: auto;
+    color: black;
+    position: absolute;
+    z-index: 0;
+    left: 31rem;
+    bottom: 2rem;
+}
+
+.zi9 {
+    font-size: 2.2rem !important;
+    width: auto;
+    height: 2rem;
+    color: #090909;
+    position: absolute;
+    z-index: 10;
+    left: 19rem;
+    top: -4rem;
+}
+
+.hu0 {
+    animation-name: backInLeft;
+    animation-delay: 0s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu1 {
+    animation-name: backInLeft;
+    animation-delay: 2s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu2 {
+    animation-name: backInLeft;
+    animation-delay: 1.5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu3 {
+    animation-name: backInLeft;
+    animation-delay: 2s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu4 {
+    animation-name: backInLeft;
+    animation-delay: 2.5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu5 {
+    animation-name: backInLeft;
+    animation-delay: 3s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu6 {
+    animation-name: backInLeft;
+    animation-delay: 3.5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu7 {
+    animation-name: backInLeft;
+    animation-delay: 4s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu8 {
+    animation-name: backInLeft;
+    animation-delay: 4.5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu9 {
+    animation-name: backInLeft;
+    animation-delay: 5.5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+    color: black;
+}
+
+.hu10 {
+    animation-name: backInLeft;
+    animation-delay: 6s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu11 {
+    animation-name: backInLeft;
+    animation-delay: 6.5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu12 {
+    animation-name: backInLeft;
+    animation-delay: 7s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu13 {
+    animation-name: backInLeft;
+    animation-delay: 7.5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu14 {
+    animation-name: backInLeft;
+    animation-delay: 8s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.hu15 {
+    animation-name: backInLeft;
+    animation-delay: 5s;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+}
+
+.animate__animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-duration: var(--animate-duration);
+    animation-duration: var(--animate-duration);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animate__backInLeft {
+    -webkit-animation-name: backInLeft;
+    animation-name: backInLeft;
+}
+
+.animate__delay-1s {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-delay: var(--animate-delay);
+    animation-delay: var(--animate-delay);
+}
+
+.animate__faster {
+    -webkit-animation-duration: calc(1s / 2);
+    animation-duration: calc(1s / 2);
+    -webkit-animation-duration: calc(var(--animate-duration) / 2);
+    animation-duration: calc(var(--animate-duration) / 2);
+}
+
+.animate__repeat-1 {
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    -webkit-animation-iteration-count: var(--animate-repeat);
+    animation-iteration-count: var(--animate-repeat);
+}
+
+@-webkit-keyframes backInLeft {
+    0% {
+        -webkit-transform: translateX(-2000px) scale(0.7);
+        transform: translateX(-2000px) scale(0.7);
+        opacity: 0.7;
+    }
+    80% {
+        -webkit-transform: translateX(0px) scale(0.7);
+        transform: translateX(0px) scale(0.7);
+        opacity: 0.7;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes backInLeft {
+    0% {
+        -webkit-transform: translateX(-2000px) scale(0.7);
+        transform: translateX(-2000px) scale(0.7);
+        opacity: 0.7;
+    }
+    80% {
+        -webkit-transform: translateX(0px) scale(0.7);
+        transform: translateX(0px) scale(0.7);
+        opacity: 0.7;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.animate__backInLeft {
+    -webkit-animation-name: backInLeft;
+    animation-name: backInLeft;
+}
+
+.bai1 {
+    background-color: #fff;
+    width: 15px;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+
+.bai2 {
+    background-color: #fff;
+    width: 15px;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+
+body {
+    background-image: url(./imgs/bgi.jpg);
+    background-size: 100%;
+}
